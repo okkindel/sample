@@ -5,7 +5,7 @@ define ('STAR', '*');
 
 class KabalaException extends Exception {
     public function __construct() {
-        parent::__construct('Value must be greater than 0');
+        parent::__construct('Kabala must be greater than whole universe');
     }
 }
 
